@@ -42,9 +42,9 @@ node('wallmart-node'){
  stage('SendEmailNotification'){
    emailext body: '''Build is over !!
 
-   Regards,
-   Landmark Technologies,
-   9980923226''', subject: 'Build Over... !!', to: 'mylandmarktech@gmail.com'
+   //Regards,
+   //Landmark Technologies,
+   //9980923226''', subject: 'Build Over... !!', to: 'mylandmarktech@gmail.com'
  }
  
  
